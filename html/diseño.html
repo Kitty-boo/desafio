@@ -9,11 +9,13 @@
         <link rel="shortcut icon" href="../imagen/nuevo.logo.PNG" type="image/x-icon">
         <!-- se aplica CSS -->
         <link rel="stylesheet" href="../css/estilo.css">
+         <!-- Link animacion -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
   <body class="gridPadreDiseño">
     <header>
       <h1 class="tituloPrincipal">Diseño</h1>
-      <img class="nuevoLogo" src="../imagen/nuevo.logo.sin.fondo.png" alt="nefredos" />
+      <img data-aos="flip-up" class="nuevoLogo" src="../imagen/nuevo.logo.sin.fondo.png" alt="nefredos" />
       <nav>
         <ul>
           <li class="display cajita"><a href="../index.html">Inicio</a></li>
@@ -27,8 +29,8 @@
     <!-- empezamos con material diseño -->
     <main>
       <div>
-      <img class="muñequitaRubia" src="../imagen/muñeca.rubia.jpg" alt="imagen muñequita" />
-      <h2 class="tituloSec">Diseño</h2>
+      <img data-aos="flip-up" class="muñequitaRubia" src="../imagen/muñeca.rubia.jpg" alt="imagen muñequita" />
+      <h2 data-aos="zoom-in" class="tituloSec">Diseño</h2>
       <p class="parrafo">
         <strong>Nefredos</strong> desea poder proyectar tus ideas y darlas a
         conocer al mundo.
@@ -40,12 +42,12 @@
         ofrecer el producto final por diferentes canales de distribución y
         desarrollo
       </p>
-      <img class="diseño" src="../imagen/diseño new.jpg" alt="diseño" />
+      <img data-aos="flip-up" class="diseño" src="../imagen/diseño new.jpg" alt="diseño" />
     </div>
     </main>
    
     <!-- agregamos el footer -->
-    <footer class="footer padreFlexFooter">
+    <footer data-aos="zoom-out-up" class="footer padreFlexFooter">
       <img class="nuevoLogoFooter" src="../imagen/nuevo.logo.sin.fondo.png" alt="nuevologo">
       <p>Nefredos</p>
       <p>Av. Plan de San Luis 1469 col. Mezquitan CP. 44220 Guadalajara Jalisco</p>    
@@ -57,5 +59,9 @@
         Sitio web creado por Mariana Pérez / todos los derechos reservados
       </p>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

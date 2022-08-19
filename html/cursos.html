@@ -9,11 +9,13 @@
         <link rel="shortcut icon" href="../imagen/nuevo.logo.PNG" type="image/x-icon">
         <!-- se aplica CSS -->
         <link rel="stylesheet" href="../css/estilo.css">
+         <!-- Link animacion -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
   <body>
     <header>
       <h1 class="tituloPrincipal">Cursos</h1>
-      <img class="nuevoLogo" src="../imagen/nuevo.logo.sin.fondo.png" alt="nefredos" />
+      <img data-aos="flip-up" class="nuevoLogo" src="../imagen/nuevo.logo.sin.fondo.png" alt="nefredos" />
       <nav>
         <ul>
           <li class="display cajita"><a href="../index.html">Inicio</a></li>
@@ -28,11 +30,11 @@
     </header>
     <!-- empezamos con material de contacto -->
     <main>
-      <h2 class="tituloSec">Conoce nuestros cursos</h2>
+      <h2 data-aos="zoom-in" class="tituloSec">Conoce nuestros cursos</h2>
       <p class="parrafo">Aprende rapido con cursos personalizados y con horario ideal para ti</p>
     </main>
     <!-- agregamos el footer -->
-    <footer class="footer padreFlexFooter">
+    <footer data-aos="zoom-out-up" class="footer padreFlexFooter">
       <img class="nuevoLogoFooter" src="../imagen/nuevo.logo.sin.fondo.png" alt="nuevologo">
       <p>Nefredos</p>
       <p>Av. Plan de San Luis 1469 col. Mezquitan CP. 44220 Guadalajara Jalisco</p>    
@@ -44,5 +46,9 @@
         Sitio web creado por Mariana Pérez / todos los derechos reservados
       </p>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

@@ -12,12 +12,14 @@
       type="image/x-icon"/>
     <!-- Link CSS -->
     <link rel="stylesheet" href="css/estilo.css" />
+    <!-- Link animacion -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
   <!-- Grid Padre -->
   <body class="gridPadre">
     <header>
       <h1 class="tituloPrincipal">NEFREDOS</h1>
-      <img
+      <img data-aos="flip-up"
         class="nuevoLogo"
         src="imagen/nuevo.logo.sin.fondo.png"
         alt="nuevoLogo"
@@ -36,10 +38,10 @@
     </header>
     <!-- terminamos con nuestra primera parte -->
     <div class="container">
-      <img class="enfermera" src="imagen/imagen.nefredos.jpg" alt="imagen" />
+      <img data-aos="flip-up" class="enfermera" src="imagen/imagen.nefredos.jpg" alt="imagen" />
     </div>
     <main>
-      <h2 class="tituloSec">Nuestra marca</h2>
+      <h2 data-aos="zoom-in" class="tituloSec">Nuestra marca</h2>
       <p class="parrafo">
         Nefredos es una marca mexicana, la cual busca crea e impulsar el
         talento, y poder darlo a conocer mediante distintos canales de impacto.
@@ -49,7 +51,7 @@
 
       <!-- comenzamos con un resumen de diseño -->
 
-      <h3 class="tituloSec">Diseño</h3>
+      <h3 data-aos="zoom-in" class="tituloSec">Diseño</h3>
       <p class="parrafo">
         Para poder proyectar tus ideas, es necesario tener una imagen clara de
         lo que nos inspira, para ello debemos planear y
@@ -61,7 +63,7 @@
 
       <!-- comenzamos con un resumen de animación -->
 
-      <h4 class="tituloSec">Animación</h4>
+      <h4 data-aos="zoom-in" class="tituloSec">Animación</h4>
       <p class="parrafo">
         Para dar vida a una representación visual y poder darla a conocer de
         manera masiva, ofrecemos nuestros servicios tecnicos y artisticos para
@@ -85,7 +87,7 @@
     </div>
 
     <!-- agregamos el footer -->
-    <footer class="footer padreFlexFooter">
+    <footer data-aos="zoom-out-up" class="footer padreFlexFooter">
       <img
         class="nuevoLogoFooter"
         src="imagen/nuevo.logo.sin.fondo.png"
@@ -110,5 +112,9 @@
       >
       <p>Sitio web creado por Mariana Pérez / todos los derechos reservados</p>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

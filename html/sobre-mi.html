@@ -9,11 +9,13 @@
         <link rel="shortcut icon" href="../imagen/nuevo.logo.PNG" type="image/x-icon">
         <!-- se aplica CSS -->
         <link rel="stylesheet" href="../css/estilo.css">
+         <!-- Link animacion -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
   <body class="gridPadreSobremi">
     <header>
       <h1 class="tituloPrincipal">Sobre mi</h1>
-      <img class="nuevoLogo" src="../imagen/nuevo.logo.sin.fondo.png" alt="nefredos" />
+      <img data-aos="flip-up" class="nuevoLogo" src="../imagen/nuevo.logo.sin.fondo.png" alt="nefredos" />
       <nav>
         <ul>
           <li class="display cajita"><a href="../index.html">Inicio</a></li>
@@ -27,14 +29,14 @@
     </header>
     <!-- empezamos con material de sobre mi -->
     <main>
-      <h2 class="tituloSec">Artista profesional</h2>
+      <h2 data-aos="zoom-in" class="tituloSec">Artista profesional</h2>
       <p class="parrafo">
         Nefredos es una marca de diseño creada por la diseñadora Dalia Gonzalez. 
         Nuestro proposito es poder explotar tu talento con los distintos productos y servicios que
         tenemos para ti.
       </p>
     
-      <h3 class="tituloSec">Has de tu sueño una realidad</h3>
+      <h3 data-aos="zoom-in" class="tituloSec">Has de tu sueño una realidad</h3>
       <p class="parrafo">
         Impulsamos tu proyecto por distintos canales de impacto, para que pueda darse a
         conocer.
@@ -49,7 +51,7 @@
       </p>
     </main>
     <!-- agregamos el footer -->
-    <footer class="footer padreFlexFooter">
+    <footer data-aos="zoom-out-up" class="footer padreFlexFooter">
       <img class="nuevoLogoFooter" src="../imagen/nuevo.logo.sin.fondo.png" alt="nuevologo">
       <p>Nefredos</p>
       <p>Av. Plan de San Luis 1469 col. Mezquitan CP. 44220 Guadalajara Jalisco</p>    
@@ -60,5 +62,9 @@
       <p>
         Sitio web creado por Mariana Pérez / todos los derechos reservados
       </p>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
   </body>
 </html>
