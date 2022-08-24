@@ -13,10 +13,6 @@ a {
 }
 
 /*Estilo a las listas*/
-li {
-  list-style-type: none;
-  
-}
 
 /*Estilo al body*/
 body {
@@ -33,7 +29,6 @@ nav {
   line-height: 30px;
   position: relative;
   padding: 10px;
-  background-image: url(../imagen/2da.opcion.jpg);
   text-align: right;
 }
 
@@ -60,6 +55,7 @@ nav {
   min-width: 100%;
   width: 100%;
 }
+
 
 .muñequitaRubia {
   min-width: 100%;
@@ -221,97 +217,3 @@ header {
   }
 }
 
-/*VERSIÓN DESKTOP*/
-@media (min-width: 1024px) {
-  .gridPadreAnimacion {
-    display: grid;
-    grid-template-areas:
-      "header header header"
-      "main main main"
-      "video video video"
-      "footer footer footer";
-  }
-}
-
-/*Aplicamos GRID en Diseño*/
-
-.diseño {
-  grid-area: diseño;
-}
-
-/*VERSIÓN MOBILE*/
-
-@media (min-width: 320) {
-  .gridPadreDiseño {
-    display: grid;
-    grid-template-areas:
-      "header"
-      "main"
-      "diseño"
-      "footer";
-  }
-}
-
-/*VERSIÓN DESKTOP*/
-@media (min-width: 1024px) {
-  .gridPadreDiseño {
-    display: grid;
-    grid-template-areas:
-      "header header header"
-      "main main main"
-      "diseño diseño diseño"
-      "footer footer footer";
-  }
-}
-
-
-/*Aplicamos GRID en Sobre Mi*/
-
-/*VERSIÓN MOBILE*/
-
-@media (min-width: 320) {
-    .gridPadreSobremi {
-      display: grid;
-      grid-template-areas:
-        "header"
-        "main"
-        "footer";
-    }
-  }
-  
-  /*VERSIÓN DESKTOP*/
-  @media (min-width: 1024px) {
-    .gridPadreSobremi {
-      display: grid;
-      grid-template-areas:
-        "header header header"
-        "main main main"
-        "footer footer footer";
-    }
-  }
-
-
-  /*Aplicamos GRID en Tienda Online*/
-
-/*VERSIÓN MOBILE*/
-
-@media (min-width: 320) {
-    .gridPadreTienda {
-      display: grid;
-      grid-template-areas:
-        "header"
-        "main"
-        "footer";
-    }
-  }
-  
-  /*VERSIÓN DESKTOP*/
-  @media (min-width: 1024px) {
-    .gridPadreTienda {
-      display: grid;
-      grid-template-areas:
-        "header header header"
-        "main main main"
-        "footer footer footer";
-    }
-  }
