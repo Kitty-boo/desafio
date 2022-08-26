@@ -23,38 +23,47 @@
 
   <body>
     <header>
-      <h1>NEFREDOS</h1>
-      <nav class=" mt-5 navbar navbar-expand-lg bg-light">
+      <nav class=" mt-5 navbar navbar-expand-lg">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#"><img src="imagen/logo.png" alt="nuevologo"></a>
+          <a class="navbar-brand" href="#"><img class="logo" src="imagen/logo.png" alt="nuevologo"></a>
+          <h1 class="title">Nefredos</h1>
+          <div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page"href="index.html">Inicio</a>
+              <a class="nav-link" aria-current="page"href="index.html">Inicio</a>
               <a class="nav-link" href="html/diseño.html">Diseño</a>
               <a class="nav-link" href="html/animacion.html">Animación</a>
               <a class="nav-link" href="html/sobre-mi.html">Sobre mi</a>
               <a class="nav-link" href="html/cursos.html">Cursos</a>
               <a class="nav-link" href="html/tienda-online.html">Tienda Online</a>
+            </div>
             </div>  
           </div>
-        </div>
       </nav>
-
+    </header>
+    
     <!-- terminamos con nuestra primera parte -->
     <div>
-      <img data-aos="flip-up" class="img-fluid" src="imagen/imagen.nefredos.jpg" alt="imagen" />
+      <img data-aos="flip-up" class="img-fluid enfermera" src="imagen/imagen.nefredos.jpg" alt="imagen" />
     </div>
     <main class="container">
-      <h2 data-aos="zoom-in" class="tituloSec">Nuestra marca</h2>
-      <p class="parrafo">
-        Nefredos es una marca mexicana, la cual busca crea e impulsar el
-        talento, y poder darlo a conocer mediante distintos canales de impacto.
-        Si se desea publicar un proyecto, sera rentable. Para la imaginación no
-        hay limitantes.
-      </p>
+      <div class="d-flex align-items-center">
+        <div class="flex-shrink-0">
+          <img class="evil" src="imagen/evil.jpg" alt="ilustración evil">
+        </div>
+        <div class="flex-grow-1 ms-3">
+          <h2 data-aos="zoom-in" class="tituloSec">Nuestra marca</h2>
+          <p class="parrafo">
+            Nefredos es una marca mexicana, la cual busca crea e impulsar el
+            talento, y poder darlo a conocer mediante distintos canales de impacto.
+            Si se desea publicar un proyecto, sera rentable. Para la imaginación no
+            hay limitantes.
+          </p>    
+        </div>
+      </div>
 
       <!-- comenzamos con un resumen de diseño -->
 
@@ -76,6 +85,12 @@
         manera masiva, ofrecemos nuestros servicios tecnicos y artisticos para
         la creación de una animación. Lleva tu proyecto a la realidad
       </p>
+
+      <div class="container">
+        <img data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom" class="evil img-fluid" src="imagen/animación.gif" alt="imagen" />
+      </div>
+
     </main>
 
     <div class="formulario">
@@ -85,9 +100,9 @@
           <label for="nombre">Nombre</label>
           <input class="botones" type="nombre" placeholder="name" id="nombre" />
           <label for="mail">Correo</label>
-          <input class="botones" type="mail" placeholder="mail" id="mail" /><label for="mensaje">Mensaje</label>
-          <input class="mensaje" type="mensaje" placeholder="message" id="mensaje"/>
-          <input class="botones" type="submit" />
+          <input type="mail" placeholder="mail" id="mail" /><label for="mensaje">Mensaje</label>
+          <input type="mensaje" placeholder="message" id="mensaje"/>
+          <input type="submit" />
           <input class="botones" type="reset" />
         </strong>
       </form>
@@ -95,30 +110,17 @@
 
     <!-- agregamos el footer -->
     <footer data-aos="zoom-out-up" class="footer padreFlexFooter">
-      <img
-        src="imagen/logo.png"
-        alt="nuevologo"
-      />
+      <img class="nuevoLogoFooter" src="../imagen/nuevo.logo.sin.fondo.png" alt="nuevologo">
       <p>Nefredos</p>
-      <p>
-        Av. Plan de San Luis 1469 col. Mezquitan CP. 44220 Guadalajara Jalisco
-      </p>
+      <p>Av. Plan de San Luis 1469 col. Mezquitan CP. 44220 Guadalajara Jalisco</p>    
       <h5>Redes sociales</h5>
-      <a class="redSocial" href="https://es-la.facebook.com/" target="_blank"
-        >Facebook</a
-      >
-      <a
-        class="redSocial"
-        href="https://www.deviantart.com/nefredos"
-        target="_blank"
-        >Devianart</a
-      >
-      <a class="redSocial" href="https://www.instagram.com/" target="_blank"
-        >Instagram</a
-      >
-      <p>Sitio web creado por Mariana Pérez / todos los derechos reservados</p>
+      <a class="redSocial" href="https://es-la.facebook.com/" target="_blank">Facebook</a>
+      <a class="redSocial" href="https://www.deviantart.com/nefredos" target="_blank">Devianart</a>
+      <a class="redSocial"href="https://www.instagram.com/" target="_blank">Instagram</a>
+      <p>
+        Sitio web creado por Mariana Pérez / todos los derechos reservados
+      </p>
     </footer>
-    
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
       AOS.init();
