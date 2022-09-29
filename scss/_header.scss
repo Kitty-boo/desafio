@@ -1,0 +1,33 @@
+header {
+    background-color: #a1b0bd; 
+    padding: 0 16px;
+  }
+  
+  .logo {
+    max-width: 40px;
+    opacity: 50%;
+   text-align: start;
+  }
+  
+  .title {
+    color: #656669;
+    text-align: start;
+    font-weight: 400;
+    font-size: 20px; }
+  
+  
+  .nav-link {
+    font-size: 14.5px;
+    justify-content: space-between; 
+    font-weight:400;
+    font-size: 14.5px;
+    font-weight:400;
+    color: #f2efeb; 
+    transition: 0.3s}
+  
+    .nav-link:hover {
+      transform: scale(1.1);
+      opacity: 0.5;
+      color: #394655; 
+    }
+  

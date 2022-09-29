@@ -1,10 +1,110 @@
 /*Estilo google font*/
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500&display=swap");
 * {
-  margin: 0px; padding: 0px;}
-  
-  @import"footer";
-  @import"header";
+  margin: 0px; }
+
+footer {
+  background-color: #a1b0bd;
+  color: #f2efeb;
+  font-size: 20px; }
+
+.containerFooter {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px 10px;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 10px; }
+
+.boxFooter {
+  display: flex;
+  flex-direction: column;
+  padding: 40px; }
+
+.boxFooter {
+  max-width: 370px;
+  font-size: 14px;
+  line-height: 25px; }
+
+.boxFooter a {
+  margin-bottom: 20px; }
+
+.boxFoot {
+  padding: 40px;
+  max-width: 370px;
+  line-height: 25px;
+  font-size: 14px; }
+
+.boxFoot a {
+  display: inline-block;
+  width: 80px;
+  height: 45px;
+  font-size: 30px;
+  margin-bottom: 35px;
+  transition: 0.3s; }
+
+.boxFoot a:hover {
+  opacity: 0.5;
+  transform: scale(1.1); }
+
+.boxFooter a {
+  transition: 0.3s;
+  animation-delay: 5s; }
+
+.boxFooter a:hover {
+  transform: scale(1.1);
+  opacity: 0.5;
+  color: #394655; }
+
+a .fa-brands {
+  transition: 0.3s;
+  transform: scale(1.16);
+  font-size: 30px;
+  color: #394655; }
+
+.deskFooter {
+  margin-bottom: 30px;
+  font-weight: bolder; }
+
+.cajaCopy {
+  background-color: #394655; }
+
+.copyright {
+  max-width: max-content;
+  margin: auto;
+  text-align: center;
+  padding: 30px 30px;
+  font-size: 13px; }
+
+header {
+  background-color: #a1b0bd;
+  padding: 0 16px; }
+
+.logo {
+  max-width: 40px;
+  opacity: 50%;
+  text-align: start; }
+
+.title {
+  color: #656669;
+  text-align: start;
+  font-weight: 400;
+  font-size: 20px; }
+
+.nav-link {
+  font-size: 14.5px;
+  justify-content: space-between;
+  font-weight: 400;
+  font-size: 14.5px;
+  font-weight: 400;
+  color: #f2efeb;
+  transition: 0.3s; }
+
+.nav-link:hover {
+  transform: scale(1.1);
+  opacity: 0.5;
+  color: #394655; }
 
   body {
     background-color:#fffffc;
@@ -305,4 +405,7 @@
   .pixel {
     display: inline-block;
     margin: 60px;
-    }
+  
+  }
+  
+  
