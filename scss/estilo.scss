@@ -241,7 +241,7 @@
     /*agregamos la tienda*/
   
   .containerGaleria {
-    display: flex;
+    display: inline-block;
     justify-content: space-between;
     flex-wrap:wrap;
     padding: 30px 30px;
