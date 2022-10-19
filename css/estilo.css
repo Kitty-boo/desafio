@@ -309,6 +309,7 @@ a .fa-brands {
 
 div.galeria {
   display: inline-block;
+  justify-content: space-between;
   margin: 10px, 20px;
   box-shadow: 0 4px 8px 0 #a1b0bd;
   width: 350px;
